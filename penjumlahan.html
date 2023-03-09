@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tugas 1 - Pemweb 2</title>
+    </head>
+    <body>
+    <script>
+    function tambah() {
+        a = eval(form.angka1.value);
+        b = eval(form.angka2.value);
+        c = a + b;
+        form.total.value = c;
+    }
+    </script>
+    <form name="form">
+        <h3>Penjumlahan Dengan Javascript</h3>
+        Angka 1 <input type="text" name="angka1" size="12"><br></br>
+        Angka 2 <input type="text" name="angka2" size="12"><br></br>
+        Hasilnya <input type="text" name="total" size="12"><br>
+        <input type="button" onclick="tambah()" name="submit" value="+">
+    </form>
+    </body>
+</html>
